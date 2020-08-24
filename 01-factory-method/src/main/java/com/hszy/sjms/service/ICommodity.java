@@ -1,8 +1,6 @@
 package com.hszy.sjms.service;
 
-import java.util.Map;
-
-import com.hszy.sjms.response.AwardRes;
+import com.hszy.sjms.product.IProduct;
 
 /**
  * 工厂接口
@@ -13,6 +11,6 @@ public interface ICommodity {
 
 	Long getType();
 	
-	AwardRes sendCommodity(String uId, String commodityId, String bizId, Map<String, String> extMap) throws Exception;
+	IProduct createCommodity();
 
 }

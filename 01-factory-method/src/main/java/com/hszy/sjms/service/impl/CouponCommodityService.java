@@ -1,10 +1,9 @@
 package com.hszy.sjms.service.impl;
 
-import java.util.Map;
-
 import org.springframework.stereotype.Service;
 
-import com.hszy.sjms.response.AwardRes;
+import com.hszy.sjms.product.IProduct;
+import com.hszy.sjms.product.impl.CouponService;
 import com.hszy.sjms.service.ICommodity;
 
 /**
@@ -22,9 +21,7 @@ public class CouponCommodityService implements ICommodity {
 	}
 
 	@Override
-	public AwardRes sendCommodity(String uId, String commodityId, String bizId, Map<String, String> extMap)
-			throws Exception {
-		return null;
+	public IProduct createCommodity() {		
+		return new CouponService();
 	}
-
 }
