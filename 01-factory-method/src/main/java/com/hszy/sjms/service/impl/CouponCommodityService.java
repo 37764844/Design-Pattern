@@ -1,5 +1,6 @@
 package com.hszy.sjms.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.hszy.sjms.product.IProduct;
@@ -15,6 +16,9 @@ import com.hszy.sjms.service.ICommodity;
 @Service
 public class CouponCommodityService implements ICommodity {
 
+	@Autowired
+	CouponService couponService;
+	
 	@Override
 	public Long getType() {
 		return 1L;
@@ -22,6 +26,6 @@ public class CouponCommodityService implements ICommodity {
 
 	@Override
 	public IProduct createCommodity() {		
-		return new CouponService();
+		return couponService;
 	}
 }

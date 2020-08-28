@@ -1,5 +1,6 @@
 package com.hszy.sjms.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.hszy.sjms.product.IProduct;
@@ -14,6 +15,9 @@ import com.hszy.sjms.service.ICommodity;
 @Service
 public class CardCommodityService implements ICommodity {
 
+	@Autowired
+	IQiYiCardService iQiYiCardService;
+	
 	@Override
 	public Long getType() {
 		return 3L;
@@ -21,6 +25,6 @@ public class CardCommodityService implements ICommodity {
 
 	@Override
 	public IProduct createCommodity() {		
-		return new IQiYiCardService();
+		return iQiYiCardService;
 	}
 }
