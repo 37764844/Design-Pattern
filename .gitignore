@@ -6,3 +6,5 @@
 .settings/
 03-builder/.classpath
 03-builder/target/classes/
+*.classpath
+02-abstract-factory/target/

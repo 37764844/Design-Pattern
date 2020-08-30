@@ -16,6 +16,7 @@
 		<module>01-factory-method</module>
 		<module>02-builder</module>
 		<module>03-builder</module>
+		<module>02-abstract-factory</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
