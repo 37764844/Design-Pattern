@@ -8,3 +8,6 @@
 03-builder/target/classes/
 *.classpath
 02-abstract-factory/target/
+*.lock
+.metadata/
+*.MF
