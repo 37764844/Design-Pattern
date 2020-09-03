@@ -11,7 +11,7 @@ import com.hszy.sjms.controller.BuilderController;
 import com.hszy.sjms.matter.builder.IMenu;
 import com.hszy.sjms.matter.ceiling.impl.LevelOneCeiling;
 import com.hszy.sjms.matter.coat.impl.DuluxCoat;
-import com.hszy.sjms.matter.floor.impl.DerFloor;
+import com.hszy.sjms.matter.floor.impl.DongPengTile;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = BuilderApplication.class)
@@ -23,7 +23,8 @@ public class BuilderApplicationTest {
 	
 	@Test
 	public void getDecorationTest() {
-
+		IMenu menu = builder.getDecoration(120.3, new LevelOneCeiling(), new DuluxCoat(), new DongPengTile());
+		System.out.println(menu.getDetail());
 	}
 	
 }

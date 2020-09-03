@@ -11,3 +11,4 @@
 *.lock
 .metadata/
 *.MF
+04-prototype/target/
