@@ -19,6 +19,8 @@
 		<module>02-abstract-factory</module>
 		<module>03-builder-printer</module>
 		<module>04-prototype</module>
+		<module>99-test</module>
+		<module>04-prototype-deepcopy</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
