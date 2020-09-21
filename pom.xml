@@ -21,6 +21,7 @@
 		<module>04-prototype</module>
 		<module>99-test</module>
 		<module>04-prototype-deepcopy</module>
+		<module>05-singleton</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>

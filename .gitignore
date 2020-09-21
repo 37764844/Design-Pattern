@@ -13,3 +13,4 @@
 04-prototype-deepcopy/target/
 99-test/target/
 *.MF
+05-singleton/target/
