@@ -1,4 +1,4 @@
-package com.hszy.sjms.DTO;
+package com.hszy.sjms.dto;
 
 import java.io.Serializable;
 
