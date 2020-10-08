@@ -23,6 +23,7 @@
 		<module>04-prototype-deepcopy</module>
 		<module>05-singleton</module>
 		<module>07-bridge</module>
+		<module>06-adapter</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
