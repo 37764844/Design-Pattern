@@ -22,3 +22,4 @@
 .metadata/
 07-bridge/target/
 06-adapter/target/
+08-composite/target/
