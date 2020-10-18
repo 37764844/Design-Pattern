@@ -23,3 +23,6 @@
 07-bridge/target/
 06-adapter/target/
 08-composite/target/
+*.factorypath
+09-decorator-eureka/target/
+09-decorator-eureka-client/target/
