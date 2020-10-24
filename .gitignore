@@ -26,3 +26,4 @@
 *.factorypath
 09-decorator-eureka/target/
 09-decorator-eureka-client/target/
+1.0-flyweight/target/

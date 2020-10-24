@@ -26,6 +26,7 @@
 		<module>06-adapter</module>
 		<module>08-composite</module>
 		<module>09-decorator-eureka-client</module>
+		<module>1.0-flyweight</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
